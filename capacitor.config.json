@@ -1,0 +1,8 @@
+{
+  "appId": "io.github.olimpiy1.vspomniego",
+  "appName": "Вспомни Его",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https"
+  }
+}

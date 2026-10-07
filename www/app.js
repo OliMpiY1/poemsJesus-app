@@ -167,6 +167,12 @@ function setupInstallPrompt() {
 }
 
 function registerServiceWorker() {
+  const isNative =
+    window.Capacitor &&
+    typeof window.Capacitor.isNativePlatform === 'function' &&
+    window.Capacitor.isNativePlatform();
+  if (isNative) return;
+
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
       navigator.serviceWorker.register('sw.js').catch((error) => {

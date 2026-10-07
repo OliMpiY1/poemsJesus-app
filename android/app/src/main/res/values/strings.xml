@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Вспомни Его</string>
+    <string name="title_activity_main">Вспомни Его</string>
+    <string name="package_name">io.github.olimpiy1.vspomniego</string>
+    <string name="custom_url_scheme">io.github.olimpiy1.vspomniego</string>
+</resources>

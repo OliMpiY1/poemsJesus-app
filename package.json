@@ -1,0 +1,18 @@
+{
+  "name": "vspomni-ego",
+  "version": "1.0.0",
+  "private": true,
+  "description": "PWA «Вспомни Его» — стихи о страданиях Христа",
+  "scripts": {
+    "sync": "cap sync android",
+    "open:android": "cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.5.2",
+    "@capacitor/cli": "^8.5.2",
+    "@capacitor/core": "^8.5.2"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5"
+  }
+}
