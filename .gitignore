@@ -1,0 +1,24 @@
+# Личные заметки — НЕ публиковать
+context/
+
+# Node / Capacitor
+node_modules/
+npm-debug.log*
+
+# Сборка Android (сгенерируется Capacitor)
+android/.gradle/
+android/app/build/
+android/build/
+android/local.properties
+*.apk
+*.aab
+
+# Ключи подписи — категорически не коммитить
+*.keystore
+*.jks
+*.p12
+
+# Системное
+.DS_Store
+Thumbs.db
+desktop.ini

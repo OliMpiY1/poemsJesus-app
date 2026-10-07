@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Вспомни Его</title>
+  <meta name="description" content="Стихи о страданиях Христа для укрепления веры в минуты духовной слабости">
+  <meta name="theme-color" content="#c0392b">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="install-prompt" hidden>
+    <span>Добавить приложение на экран?</span>
+    <button id="install-btn" type="button">Добавить</button>
+    <button id="install-close" type="button" aria-label="Позже">Позже</button>
+  </div>
+
+  <header>
+    <h1>Вспомни Его</h1>
+    <p class="daily-date" id="daily-date"></p>
+  </header>
+
+  <main class="verse-card">
+    <figure class="artwork" id="artwork" hidden>
+      <div class="artwork-frame">
+        <img id="art-image" alt="">
+      </div>
+      <figcaption id="art-caption"></figcaption>
+    </figure>
+    <div class="verse-reference" id="verse-reference"></div>
+    <blockquote class="verse-text" id="verse-text"></blockquote>
+  </main>
+
+  <footer class="nav" id="test-nav" hidden>
+    <button class="btn" id="prev-btn" type="button" aria-label="Предыдущий стих">←</button>
+    <button class="btn" id="random-btn" type="button" aria-label="Случайный стих">★</button>
+    <button class="btn" id="next-btn" type="button" aria-label="Следующий стих">→</button>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
