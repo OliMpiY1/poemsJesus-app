@@ -1,4 +1,4 @@
-const CACHE_NAME = 'vspomni-ego-v8';
+const CACHE_NAME = 'vspomni-ego-v9';
 
 const ASSETS = [
   './',
